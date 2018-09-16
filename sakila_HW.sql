@@ -97,6 +97,7 @@ select * from actor
 where actor_id = 172;
 
 # 5a. You cannot locate the schema of the address table. Which query would you use to re-create it?
+show create table address;
 
 CREATE TABLE `address` (
   `address_id` smallint(5) unsigned NOT NULL AUTO_INCREMENT,
